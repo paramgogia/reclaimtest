@@ -1,13 +1,69 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Page</title>
+    <title>Renewable Energy Receipt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .receipt-container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .receipt-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .receipt-header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #2d89ef;
+        }
+        .receipt-header p {
+            margin: 0;
+            font-size: 14px;
+            color: #666;
+        }
+        .receipt-body {
+            line-height: 1.6;
+        }
+        .receipt-footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #2d89ef;
+        }
+    </style>
 </head>
 <body>
-    <p>10 token</p>
+    <div class="receipt-container">
+        <div class="receipt-header">
+            <h1>Renewable Energy Receipt</h1>
+            <p>Solar Energy Generation Report</p>
+        </div>
+        <div class="receipt-body">
+            <p><strong>Date:</strong> <span class="highlight">January 4, 2025</span></p>
+            <p><strong>Solar Cell ID:</strong> <span class="highlight">SC-2025-001</span></p>
+            <p><strong>Total Energy Generated:</strong> <span class="highlight">15.2 kWh</span></p>
+            <p><strong>REC Tokens Generated:</strong> <span class="highlight">1.52 REC Token</span></p>
+        </div>
+        <div class="receipt-footer">
+            <p>Thank you for contributing to renewable energy generation!</p>
+        </div>
+    </div>
 </body>
-    <script src="https://cdn.example.com/reclaim-proof-request.js"></script>
 </html>
